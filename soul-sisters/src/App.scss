@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+// logo {
+//   list-style-image: url(Logo.jpg);
+//   z-index: 1;
+
+// }
+#head {
+  color: gray;
+  font-family: cursive;
+  position: fixed;
+  top: 25px;
+  left:225px;
+}
+
+.Logo {
+  max-height: 175px;
+  max-width: 175px;
+  border-radius:25px;
+  position:fixed;
+  top:10px;
+  left:10px;
+}
