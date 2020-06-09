@@ -15,7 +15,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 50vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -59,4 +59,25 @@
   position:fixed;
   top:10px;
   left:10px;
+}
+
+.about {
+  padding: 15px 15px 25px 15px;
+    background-color: #ffffff;
+    text-align: center;
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, .5);
+    border: 2px rounded black;
+    width:25% ;
+    height:275px;
+    opacity: 0.7;
+    border-radius: 25px;
+    position: absolute;
+    right: 40%;
+    
+    
+}
+
+p {
+  font-family: cursive;
+  
 }
