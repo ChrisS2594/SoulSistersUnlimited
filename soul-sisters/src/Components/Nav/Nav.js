@@ -20,10 +20,7 @@ return (
       <li>
         <a href="/" aria-haspopup="true"><span>Products</span></a>
         <ul>
-        <li><Link to="#">Tumblers</Link></li>
-        <li><Link to="#">Plates/Trays</Link></li>
-        <li><Link to="#">Shirts</Link></li>
-        <li><Link to="#">Bags</Link></li>
+        <li><Link to="/products">Crafts</Link></li>
         <li><Link to ="#">Custom Requests</Link></li>
         
         </ul>

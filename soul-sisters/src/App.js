@@ -9,11 +9,14 @@ import {
   useRouteMatch,
   useParams
 } from "react-router-dom";
-//  import logo from "Logo.jpg"; Working to import logo in the future.
 import Logo from "./Logo.jpg";
 import Splash from "./Pages/splash";
+import Crafts from "./Pages/product";
 
-// return <img src ={logo} alt= "Logo" />
+
+
+
+// Beginning function of application
 function App() {
   return (
 
@@ -27,7 +30,10 @@ function App() {
           <h1 id="head">Crafting. Creating. Loving Every Minute Of It!</h1>
         </header>
       </div>
+      {/* building routes for pages  */}
       <Route exact path="/" component={Splash} />
+      <Route exact path="/product" component={Crafts} />
+
     </Router>
   );
 }
